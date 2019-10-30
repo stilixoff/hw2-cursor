@@ -14,3 +14,7 @@ div {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+div>form>input {
+    margin-top: 10px;
+}
