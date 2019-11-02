@@ -50,51 +50,51 @@
             </tr>
         </table>
     </div>
+    <form>
+        <div>
+            <form>
+                <input type="text" name="firstname" placeholder="Введите имя"></<input> 
+                <br>
+                <input type="text" name="secondname" placeholder="Введите фамилию"></<input> 
+            </form>
+        </div>
 
-    <div>
-        <form>
-            <input type="text" name="firstname" placeholder="Введите имя"></<input> 
+        <div>
+            <p><strong>Какой Ваш пол?</strong></p>
+            <form>
+                <input type="radio" name="sex" value="man" checked> <strong>M</strong>
+                <br>
+                <input type="radio" name="sex" value="woman"> <strong>Ж</strong></<input>
+            </form>
+        </div>
+
+        <div>
+            <textarea name="text" id="textHw" cols="40" rows="10" placeholder="Введи какой-то текст"></textarea>
+        </div>
+
+        <div>
+            <select>
+                <option selected disabled hidden>Выберите город</option>
+                <option value="Kyiv">Киев</option>
+                <option value="Dnepr">Днепр</option>
+                <option value="Odessa">Одесса</option>
+                <option value="Lviv">Львов</option>
+            </select>
+        </div>
+
+        <div>
+            <p><strong>Выбор языка:</strong></p>
+            <input type="checkbox"> <strong>Украинский</strong> 
             <br>
-            <input type="text" name="secondname" placeholder="Введите фамилию"></<input> 
-        </form>
-    </div>
-
-    <div>
-        <p><strong>Какой Ваш пол?</strong></p>
-        <form>
-            <input type="radio" name="sex" value="man" checked> <strong>M</strong>
+            <input type="checkbox"> <strong>Русский</strong> 
             <br>
-            <input type="radio" name="sex" value="woman"> <strong>Ж</strong></<input>
-        </form>
-    </div>
+            <input type="checkbox"> <strong>Английский</strong> 
+            <br>
+        </div>
 
-    <div>
-        <textarea name="text" id="textHw" cols="40" rows="10" placeholder="Введи какой-то текст"></textarea>
-    </div>
-
-    <div>
-        <select>
-            <option selected disabled hidden>Выберите город</option>
-            <option value="Kyiv">Киев</option>
-            <option value="Dnepr">Днепр</option>
-            <option value="Odessa">Одесса</option>
-            <option value="Lviv">Львов</option>
-        </select>
-    </div>
-
-    <div>
-        <p><strong>Выбор языка:</strong></p>
-        <input type="checkbox"> <strong>Украинский</strong> 
-        <br>
-        <input type="checkbox"> <strong>Русский</strong> 
-        <br>
-        <input type="checkbox"> <strong>Английский</strong> 
-        <br>
-    </div>
-
-    <div>
-            <button type="submit">отправить</button>
-    </div>
-
+        <div>
+                <button type="submit">отправить</button>
+        </div>
+    </form>
 </body>
 </html>
